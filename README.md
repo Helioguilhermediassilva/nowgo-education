@@ -64,6 +64,34 @@ src/
 └── main.jsx             # Ponto de entrada
 ```
 
+## 🚀 Deploy no Vercel
+
+Este projeto está otimizado para deploy no Vercel com configurações automáticas.
+
+### Deploy Automático
+1. **Conecte o repositório** ao Vercel
+2. **Configure as variáveis** de ambiente (se necessário)
+3. **Deploy automático** a cada push na branch `main`
+
+### Deploy Manual
+```bash
+# Instalar Vercel CLI
+npm i -g vercel
+
+# Fazer login
+vercel login
+
+# Deploy
+vercel --prod
+```
+
+### Configurações do Vercel
+- ✅ **Framework:** Vite
+- ✅ **Build Command:** `npm run build`
+- ✅ **Output Directory:** `dist`
+- ✅ **Install Command:** `npm install`
+- ✅ **Node.js Version:** 18.x
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos

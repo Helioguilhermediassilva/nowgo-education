@@ -1,13 +1,36 @@
 {
   "name": "nowgo-education-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "🎓 NowGo Education - Site oficial da escola revolucionária com IA. Clone do Alpha School adaptado para o Brasil com identidade visual NowGo.",
+  "author": "Hélio Guilherme Dias Silva",
+  "homepage": "https://nowgo-education.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Helioguilhermediassilva/nowgo-education.git"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "artificial-intelligence",
+    "school",
+    "brazil",
+    "react",
+    "tailwindcss",
+    "nowgo",
+    "alpha-school"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "vercel-build": "vite build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
